@@ -3,63 +3,63 @@ Juan de Jesus Fuentes Hernandez
 Diferentes tipos de Trinagulos
 
 Seudocodigo:
-//Programa que imprime 4 tipos de triangulos diferentes
-Algoritmo triangulo_inverso
-    Definir numero,tipo como Entero
+    //Programa que imprime 4 tipos de triangulos diferentes
+     Algoritmo triangulo_inverso
+        Definir numero,tipo como Entero
 	Escribir "Escriba uno de los 4 tipos de triangulo que quiera: ";
 	Escribir "1.Triangulo hacia la derecha con angulo inferior";
 	Escribir "2.Triangulo hacia la izquierda con angulo inferior";
 	Escribir "3.Triangulo hacia la derecha con angulo superior";
 	Escribir "4.Triangulo hacia la izquierda con angulo inferior";
 	leer tipo;
-    Escribir "Ingrese un número:"
-    Leer numero;
-	Si tipo == 4 Entonces
-		Para i <- 0 Hasta numero - 1 Con Paso 1 Hacer
-			Para j <- 0 Hasta i Con Paso 1 Hacer
+        Escribir "Ingrese un número:"
+        Leer numero;
+	   Si tipo == 4 Entonces
+	        	Para i <- 0 Hasta numero - 1 Con Paso 1 Hacer
+		        	Para j <- 0 Hasta i Con Paso 1 Hacer
 				Escribir Sin Saltar "  "
-			Fin Para
-			Para j <- 0 Hasta numero - i - 1 Con Paso 1 Hacer
+			    Fin Para
+			   Para j <- 0 Hasta numero - i - 1 Con Paso 1 Hacer
 				Escribir Sin Saltar "* "
-			Fin Para
-			Escribir ""
-		Fin Para
-	SiNo
-        Si tipo == 2 Entonces
-			Para i <- 0 Hasta numero - 1 Con Paso 1 Hacer
-				Para j <- 0 Hasta numero - 1 Con Paso 1 Hacer
-					Si j < numero - i - 1 Entonces
-						Escribir Sin Saltar "  "
+			    Fin Para
+			   Escribir ""
+	        	Fin Para
+	 SiNo
+           Si tipo == 2 Entonces
+			   Para i <- 0 Hasta numero - 1 Con Paso 1 Hacer
+				   Para j <- 0 Hasta numero - 1 Con Paso 1 Hacer
+					   Si j < numero - i - 1 Entonces
+						   Escribir Sin Saltar "  "
 					Sino
 						Escribir Sin Saltar "* "
-					Fin Si
-				Fin Para
-				Escribir ""
-			Fin Para
-		SiNo
-			Si tipo == 1 Entonces
-				Para i <- 0 Hasta numero - 1 Con Paso 1 Hacer
-					Para j <- 0 Hasta i Con Paso 1 Hacer
-						Escribir Sin Saltar "* "
-					Fin Para
-					Escribir ""
-				Fin Para
-			SiNo
-				Si tipo == 3 Entonces
-					Para i <- 0 Hasta numero - 1 Con Paso 1 Hacer
-						Para j <- 0 Hasta numero - i - 1 Con Paso 1 Hacer
-							Escribir Sin Saltar "* "
-						Fin Para
-						Escribir ""
-					Fin Para
-				SiNo
-					escribir "esta opcion no existe"
-				Fin Si
-			Fin Si
-		Fin Si
-	Fin Si
+					  Fin Si
+				  Fin Para
+				   Escribir ""
+			  Fin Para
+		  SiNo
+			   Si tipo == 1 Entonces
+				   Para i <- 0 Hasta numero - 1 Con Paso 1 Hacer
+					   Para j <- 0 Hasta i Con Paso 1 Hacer
+						  Escribir Sin Saltar "* "
+					   Fin Para
+					  Escribir ""
+				  Fin Para
+			    Sino
+                                   Si tipo == 3 Entonces
+				          	Para i <- 0 Hasta numero - 1 Con Paso 1 Hacer
+					        	Para j <- 0 Hasta numero - i - 1 Con Paso 1 Hacer
+						        	Escribir Sin Saltar "* "
+	                    					Fin Para
+			              			Escribir ""
+					       Fin Para
+				         SiNo
+				         	esscribir "esta opcion no existe"
+				     Fin Si
+			    Fin Si
+		     Fin Si
+	     Fin Si
 
-FinAlgoritmo
+     FinAlgoritmo
 
 
 C++
